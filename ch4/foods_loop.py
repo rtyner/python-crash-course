@@ -3,7 +3,11 @@ friend_foods = my_foods[:]
 my_foods.append('cannoli')
 friend_foods.append('ice cream')
 
-for i in my_foods:
-    print(f"Some of the favorite foods are {i}")
-for i in friend_foods:
-    print(f"Some of my friends favorite foods are {i}")    
+print("My favorite foods are:")
+for i in my_foods[:]:
+    print(i)
+
+print("My friends favorite foods are:")
+for i in friend_foods[:]:
+    print(i)
+  
