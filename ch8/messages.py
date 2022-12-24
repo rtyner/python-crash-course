@@ -1,7 +1,12 @@
-def show_messages(messages):
+def show_message(messages):
+    """Prints from a list of text"""
     for message in messages:
-        msg = f"{messages}"
-        print(msg)
+        printed_message = f"{message}"
+        print(printed_message)
 
-messages = ['bingo hello', 'i need to sleep', 'i dont want to work tomorrow']
-show_messages(messages)
+messages_to_print = [
+    'hello i am here',
+    'am i doing this right?',
+    'this chapter is kind of confusing',
+]
+show_message(messages_to_print)
